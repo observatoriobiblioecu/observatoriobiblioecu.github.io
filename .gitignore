@@ -1,0 +1,11 @@
+# Entorno virtual
+venv/
+
+# Archivos de compilación de MkDocs
+site/
+
+# Archivos temporales de sistema
+*.pyc
+__pycache__/
+.DS_Store
+
