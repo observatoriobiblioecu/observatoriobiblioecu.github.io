@@ -1,17 +1,39 @@
-# Welcome to MkDocs
+# Observatorio de Bibliotecas del Ecuador
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+!!! abstract "Propósito"
+    El Observatorio de Bibliotecas del Ecuador es una iniciativa independiente orientada a generar datos, análisis y evidencia sobre el estado, evolución y desafíos del ecosistema bibliotecario nacional.
 
-## Commands
+---
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## ¿Por qué un Observatorio?
 
-## Project layout
+Las bibliotecas del país carecen de información sistematizada, indicadores públicos y seguimiento continuo.  
+Sin datos no hay política pública, sin evidencia no hay transformación.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+---
+
+## Líneas estratégicas 2026
+
+=== "Censo Nacional"
+    Mapeo y caracterización de bibliotecas del Ecuador: tipología, infraestructura, servicios, personal y nivel de digitalización.
+
+=== "Inteligencia Artificial"
+    Análisis del estado de adopción de IA en bibliotecas: usos reales, percepciones, riesgos y oportunidades.
+
+=== "Monitoreo de Noticias"
+    Seguimiento sistemático de la presencia de las bibliotecas en medios de comunicación y discurso público.
+
+---
+
+## Cómo funcionamos
+
+```mermaid
+flowchart LR
+    A[Levantamiento de datos] --> B[Validación]
+    B --> C[Análisis]
+    C --> D[Publicación abierta]
+    D --> E[Retroalimentación del sector]
+```
+!!! info "Actualización 2026"
+    Este observatorio publicará informes parciales y resultados abiertos durante el año 2026.
+

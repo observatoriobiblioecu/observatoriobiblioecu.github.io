@@ -1,1 +1,95 @@
-site_name: My Docs
+site_name: Observatorio Bibliotecas del Ecuador 
+site_url: https://observatoriobiblioecu.github.io/
+theme:
+  name: material
+  palette:
+    # Configuración para modo claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Configuración para modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: images/favicon.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+
+plugins:
+  - search
+  - include-markdown
+  - mkdocs-jupyter
+
+nav:
+  - Inicio: index.md
+
+  - El Observatorio:
+      - Quiénes somos: quienes-somos.md
+      - Participar: participar.md
+      - Contacto: contacto.md
+
+  - Líneas de trabajo:
+      - Censo Nacional: lineas/censo.md
+      - Inteligencia Artificial: lineas/ia.md
+      - Monitoreo de Noticias: lineas/noticias.md
+  - Ecosistema Bibliotecario:
+      - Publicaciones del sector: ecosistema/publicaciones-sector.md
+      - Asociaciones y redes: ecosistema/asociaciones.md  
+  - Publicaciones OBEC:
+      - Informes: publicaciones/informes.md
+      - Boletines: publicaciones/boletines.md
+
+
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css
+  - stylesheets/extra.css
+
+extra_javascript:
+  - https://code.jquery.com/jquery-3.6.0.min.js
+  - https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js
+  - https://cdn.datatables.net/1.13.6/js/dataTables.material.min.js
+  - js/datatable-init.js
+
+
