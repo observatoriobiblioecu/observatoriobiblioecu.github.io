@@ -1,6 +1,119 @@
 :root > * {
-  --md-primary-fg-color: #003358;       /* Azul Profundo */
-  --md-primary-fg-color--light: #49A094; /* Verde Teal */
+  --md-primary-fg-color: #003358;
+  --md-primary-fg-color--light: #49A094;
   --md-primary-fg-color--dark: #001d32;
-  --md-accent-fg-color: #D49435;        /* Dorado Ocre */
+  --md-accent-fg-color: #D49435;
 }
+/* ===== CONTENEDOR GENERAL ===== */
+.mdc-data-table {
+    border-radius: 14px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    border: 1px solid #e6e9ef;
+}
+
+/* ===== ENCABEZADO ===== */
+.mdc-data-table__header-cell {
+    background-color: var(--md-primary-fg-color) !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-size: 0.9rem;
+    letter-spacing: 0.4px;
+    border-bottom: none !important;
+}
+
+/* Quitar bordes raros del header */
+.mdc-data-table__header-row {
+    background-color: var(--md-primary-fg-color) !important;
+}
+
+/* ===== FILAS ===== */
+.mdc-data-table__row {
+    transition: background 0.2s ease;
+}
+
+/* Filas alternadas */
+.mdc-data-table__row:nth-child(even) {
+    background-color: #f5f7fa !important;
+}
+
+/* Hover */
+.mdc-data-table__row:hover {
+    background-color: rgba(0, 51, 88, 0.08) !important;
+}
+
+/* ===== CELDAS ===== */
+.mdc-data-table__cell {
+    padding: 14px 16px !important;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #eef1f5 !important;
+}
+
+/* ===== LINKS DENTRO DE LA TABLA ===== */
+.mdc-data-table__cell a {
+    color: var(--md-accent-fg-color);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.mdc-data-table__cell a:hover {
+    text-decoration: underline;
+}
+
+/* ===== PAGINACIÓN ===== */
+.dataTables_paginate .paginate_button.current {
+    background-color: var(--md-primary-fg-color) !important;
+    color: white !important;
+    border-radius: 6px !important;
+}
+
+.dataTables_paginate .paginate_button:hover {
+    background-color: var(--md-primary-fg-color--light) !important;
+    color: white !important;
+}
+
+/* TOOLBAR SUPERIOR */
+.dt-toolbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+/* FOOTER INFERIOR */
+.dt-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+/* Evita que se comporten como tabla */
+.dt-toolbar,
+.dt-footer {
+    width: 100%;
+}
+
+/* Forzar ancho completo */
+table.dataTable {
+    width: 100% !important;
+    table-layout: auto !important;
+}
+
+/* Quitar límites de Material */
+.mdc-data-table__table {
+    table-layout: auto !important;
+}
+
+/* Evitar que el texto se corte feo */
+.mdc-data-table__cell,
+.mdc-data-table__header-cell {
+    white-space: normal !important;
+    word-break: normal !important;
+}
+
+/* Que los enlaces no se rompan verticalmente */
+.mdc-data-table__cell a {
+    white-space: nowrap !important;
+}
+
