@@ -1,47 +1,59 @@
 # Monitoreo de Noticias y Tendencias
 
-!!! info "Observación sistemática"
-    Seguimiento estructurado de noticias, políticas públicas y eventos relevantes para el sector bibliotecario.
+!!! info "Línea estratégica 3"
+    Seguimiento sistemático del discurso público, políticas y transformaciones del sector bibliotecario.
 
 ---
 
-## ¿Por qué monitorear noticias?
+## Justificación
 
-Las decisiones públicas y tendencias sectoriales se anuncian primero en medios y comunicados oficiales.
+Las decisiones políticas, inversiones y reformas sectoriales suelen anunciarse primero en medios de comunicación y comunicados oficiales.
 
-El monitoreo permite:
-
-- Detectar cambios normativos
-- Identificar inversiones públicas
-- Analizar discursos sobre bibliotecas
-- Anticipar transformaciones del sector
+El monitoreo estructurado permite anticipar cambios y comprender la narrativa pública sobre bibliotecas.
 
 ---
 
-## ¿Qué se registrará?
+## Dimensiones de análisis
 
-??? note "Datos básicos"
-    - Fecha  
-    - Medio  
-    - Enlace  
-    - Región  
+=== "1. Registro básico"
 
-??? note "Clasificación"
-    - Política pública  
-    - Inversión  
-    - Innovación  
-    - Evento académico  
-    - Crisis / cierre  
+    - Fecha
+    - Medio o fuente oficial
+    - Enlace
+    - Región
 
-??? note "Análisis"
-    - Impacto potencial  
-    - Tendencia asociada  
+=== "2. Clasificación temática"
+
+    - Política pública
+    - Inversión o financiamiento
+    - Innovación tecnológica
+    - Eventos académicos
+    - Crisis, cierres o conflictos
+
+=== "3. Análisis cualitativo"
+
+    - Impacto potencial
+    - Tendencias recurrentes
+    - Actores involucrados
+    - Enfoque del discurso
 
 ---
 
-## Resultados esperados
+## Productos
 
-- Base de noticias estructurada
+- Base estructurada de noticias
 - Informes trimestrales de tendencias
-- Análisis cualitativo del discurso público
+- Análisis del discurso sectorial
+- Identificación de riesgos y oportunidades
 
+---
+
+## Metodología
+
+```mermaid
+flowchart LR
+    A[Identificación de fuentes] --> B[Registro estructurado]
+    B --> C[Clasificación temática]
+    C --> D[Análisis de tendencias]
+    D --> E[Informe periódico]
+```

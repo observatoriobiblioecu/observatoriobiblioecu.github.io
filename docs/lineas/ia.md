@@ -1,51 +1,67 @@
 # Inteligencia Artificial en Bibliotecas
 
-!!! abstract "Línea estratégica"
-    Analizar el nivel de adopción, uso y percepción de la inteligencia artificial en bibliotecas ecuatorianas.
+!!! info "Línea estratégica 2"
+    Analizar el nivel de adopción, gobernanza e impacto de la inteligencia artificial en bibliotecas ecuatorianas.
 
 ---
 
-## Objetivo
+## Justificación
 
-Identificar cómo las bibliotecas están incorporando tecnologías emergentes en:
+La inteligencia artificial está transformando procesos documentales, servicios digitales y modelos de gestión.  
+Sin embargo, no existe evidencia sistemática sobre su incorporación real en bibliotecas del país.
 
-- Catalogación
-- Referencia virtual
-- Automatización de procesos
-- Análisis de datos
-- Servicios personalizados
+Esta línea busca medir, analizar y orientar su implementación responsable.
 
 ---
 
-## ¿Qué se evaluará?
+## Dimensiones de análisis
 
-??? note "Nivel de adopción"
-    Uso experimental, implementación parcial o integración institucional.
+=== "1. Nivel de adopción"
 
-??? note "Capacitación"
-    Formación del personal en herramientas de IA.
+    - Uso experimental
+    - Implementación parcial
+    - Integración institucional
+    - Herramientas utilizadas
 
-??? note "Políticas"
-    Existencia de lineamientos internos sobre uso responsable.
+=== "2. Áreas de aplicación"
 
-??? note "Impacto"
-    Mejora en eficiencia, servicios o toma de decisiones.
+    - Catalogación y metadatos
+    - Referencia virtual
+    - Automatización de procesos
+    - Análisis de datos
+    - Servicios personalizados
+
+=== "3. Gobernanza y ética"
+
+    - Políticas internas
+    - Protección de datos
+    - Transparencia algorítmica
+    - Uso responsable
+
+=== "4. Capacidades institucionales"
+
+    - Formación del personal
+    - Infraestructura tecnológica
+    - Presupuesto destinado
+    - Sostenibilidad del modelo
 
 ---
 
-## Enfoque
+## Productos
 
-No se trata solo de tecnología, sino de:
-
-- Gobernanza
-- Ética
-- Competencias profesionales
-- Sostenibilidad
-
----
-
-## Resultado esperado
-
-- Diagnóstico nacional
+- Diagnóstico nacional sobre IA en bibliotecas
+- Informe comparativo por tipología
 - Recomendaciones estratégicas
 - Guía de buenas prácticas
+
+---
+
+## Metodología
+
+```mermaid
+flowchart LR
+    A[Identificación de casos] --> B[Levantamiento de información]
+    B --> C[Análisis comparativo]
+    C --> D[Evaluación de riesgos y oportunidades]
+    D --> E[Publicación de resultados]
+```

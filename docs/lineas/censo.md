@@ -1,55 +1,63 @@
 # Censo Nacional de Bibliotecas
 
-!!! info "Propósito"
-    Construir el primer mapa sistemático y actualizado de las bibliotecas del Ecuador.
+!!! info "Línea estratégica 1"
+    Construir el primer sistema nacional de información bibliotecaria basado en datos verificables y actualizados.
 
 ---
 
-## ¿Por qué es necesario?
+## Justificación
 
-Actualmente no existe un registro consolidado y actualizado de las bibliotecas del país. Esto dificulta:
+El Ecuador no dispone de un registro consolidado de bibliotecas.  
+Esta ausencia limita:
 
-- La formulación de políticas públicas
-- La asignación de recursos
-- La planificación estratégica del sector
-- La cooperación interinstitucional
-
----
-
-## ¿Qué información se levantará?
-
-??? note "Datos institucionales"
-    - Tipo de biblioteca  
-    - Dependencia administrativa  
-    - Ubicación geográfica  
-
-??? note "Infraestructura"
-    - Espacio físico  
-    - Equipamiento tecnológico  
-    - Conectividad  
-
-??? note "Recursos humanos"
-    - Número de bibliotecarios  
-    - Nivel de formación  
-    - Tipo de contratación  
-
-??? note "Servicios"
-    - Servicios presenciales  
-    - Servicios digitales  
-    - Actividades culturales  
+- El diseño de políticas públicas
+- La asignación eficiente de recursos
+- La planificación sectorial
+- La cooperación entre instituciones
 
 ---
 
-## Resultados esperados
+## Dimensiones de análisis
+
+=== "1. Identificación institucional"
+
+    - Tipo de biblioteca
+    - Dependencia administrativa
+    - Ubicación geográfica
+    - Año de creación
+
+=== "2. Infraestructura y tecnología"
+
+    - Espacio físico
+    - Equipamiento
+    - Conectividad
+    - Sistemas de gestión
+
+=== "3. Capital humano"
+
+    - Número de profesionales
+    - Nivel de formación
+    - Tipo de contratación
+
+=== "4. Servicios y alcance"
+
+    - Servicios presenciales
+    - Servicios digitales
+    - Actividades culturales
+    - Usuarios atendidos
+
+---
+
+## Productos del censo
 
 - Base de datos abierta
-- Informes estadísticos
-- Visualizaciones comparativas
-- Identificación de brechas regionales
+- Informe nacional
+- Reportes comparativos regionales
+- Identificación de brechas estructurales
 
 ---
 
-## Metodología general
+## Metodología 
 
 ```mermaid
 flowchart LR
