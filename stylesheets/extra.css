@@ -1,0 +1,6 @@
+:root > * {
+  --md-primary-fg-color: #003358;       /* Azul Profundo */
+  --md-primary-fg-color--light: #49A094; /* Verde Teal */
+  --md-primary-fg-color--dark: #001d32;
+  --md-accent-fg-color: #D49435;        /* Dorado Ocre */
+}
