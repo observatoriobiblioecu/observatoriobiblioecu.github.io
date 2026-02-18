@@ -93,4 +93,7 @@ extra_javascript:
   - https://cdn.datatables.net/1.13.6/js/dataTables.material.min.js
   - js/datatable-init.js
 
-
+extra:
+  google_analytics:
+    - G-3BTC1XMV27
+    - auto

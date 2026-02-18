@@ -19,10 +19,17 @@ El Observatorio surge para cubrir esa brecha mediante la producción de informac
 
 === "Fundador y Coordinador"
 
-**Luis Enrique Lescano Borrego**  
-Especialista en bibliotecas – Universidad de Cuenca  
+    **Luis Enrique Lescano Borrego**  
+    Especialista en bibliotecas – Universidad de Cuenca  
 
-Profesional con experiencia en gestión bibliotecaria, automatización de sistemas, repositorios institucionales, análisis documental e innovación en servicios de información.
+    Profesional con experiencia en gestión bibliotecaria, automatización de sistemas, repositorios institucionales, análisis documental e innovación en servicios de información.
+
+=== "Voluntarios"
+    **Vanessa Morales Mariño** 
+    
+   Bibliotecaria - Universidad de Cuenca
+
+   Profesional con experiencia en alfabetizaciòn informacional, gamificación, atención al usuario y marketing bibliotecario
 
 ---
 
