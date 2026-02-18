@@ -94,6 +94,6 @@ extra_javascript:
   - js/datatable-init.js
 
 extra:
-  google_analytics:
-    - G-3BTC1XMV27
-    - auto
+  analytics:
+    provider: google
+    property: G-3BTC1XMV27
